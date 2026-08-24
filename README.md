@@ -110,6 +110,24 @@ Software Engineer with deep architectural experience across **cloud-native micro
   <tbody>
     <tr>
       <td>
+        <b><a href="https://github.com/Patel5600/Wobble">Wobble</a></b><br/>
+        <i>Zero-Knowledge Kinetic Co-Presence & P2P Mesh</i>
+      </td>
+      <td>
+        &bull; Real-time physical bump sensor correlation using <b>Dynamic Time Warping (DTW)</b> & <b>Pearson Cross-Correlation</b>.<br/>
+        &bull; Ephemeral <b>ECDH (NIST P-256)</b> key agreement, HKDF-SHA256, and <b>AES-256-GCM</b> on-device authenticated encryption.<br/>
+        &bull; Proximity discovery via <b>BLE GATT</b> + high-speed <b>Wi-Fi Direct</b> P2P file streaming with zero server intermediaries.
+      </td>
+      <td>
+        <code>Kotlin</code><br/>
+        <code>ECDH P-256</code><br/>
+        <code>BLE GATT</code><br/>
+        <code>Wi-Fi Direct</code><br/>
+        <code>Compose M3</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <b><a href="https://github.com/Patel5600/GhostHire">GhostHire Platform</a></b><br/>
         <i>Production SaaS API Backend</i>
       </td>
