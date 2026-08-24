@@ -110,6 +110,24 @@ Software Engineer with deep architectural experience across **cloud-native micro
   <tbody>
     <tr>
       <td>
+        <b><a href="https://github.com/Patel5600/Glyph">Glyph (SEAL Architecture)</a></b><br/>
+        <i>Post-Quantum Hybrid E2EE Messenger & libp2p Mesh</i>
+      </td>
+      <td>
+        &bull; Isolated <b>Native Rust Core</b> with <code>zeroize</code> memory protection — private keys never touch JVM heap.<br/>
+        &bull; <b>NIST Post-Quantum Hybrid (PQXDH++)</b>: <code>X25519 ⊕ ML-KEM-768</code> (FIPS 203) & <code>Ed25519 ∧ ML-DSA-65</code> (FIPS 204).<br/>
+        &bull; <b>Header-Encrypted Double Ratchet</b>, sealed sender envelopes, <b>libp2p QUIC/TCP swarm</b>, and asynchronous <b>redb</b> Mailbox Relays.
+      </td>
+      <td>
+        <code>Rust Core</code><br/>
+        <code>ML-KEM-768</code><br/>
+        <code>ML-DSA-65</code><br/>
+        <code>libp2p / QUIC</code><br/>
+        <code>Jetpack Compose</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <b><a href="https://github.com/Patel5600/Wobble">Wobble</a></b><br/>
         <i>Zero-Knowledge Kinetic Co-Presence & P2P Mesh</i>
       </td>
